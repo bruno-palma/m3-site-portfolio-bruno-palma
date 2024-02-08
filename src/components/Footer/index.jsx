@@ -1,7 +1,7 @@
 import WhatsIcon from "../../assets/whatsapp-icon.png";
 import LinkedinIcon from "../../assets/linkedin-icon.png";
 import GitIcon from "../../assets/github-icon.png";
-import { user } from "../../data/user";
+import { user } from "../../data/user.js";
 
 export const Footer = () => {
   return (
