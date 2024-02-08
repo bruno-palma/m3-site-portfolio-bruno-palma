@@ -1,0 +1,29 @@
+@import url("./globalStyles.css");
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+}
+
+button {
+  cursor: pointer;
+}
+
+.button-default {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  font-size: var(--label-size);
+  font-weight: 600;
+  border-radius: var(--radius-default);
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+.button-default:hover {
+  background-color: var(--color-primary-hover);
+}

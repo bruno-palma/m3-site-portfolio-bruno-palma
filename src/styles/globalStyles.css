@@ -1,0 +1,16 @@
+@import url("./reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --color-primary: #6880ff;
+  --color-primary-hover: #7c91ff;
+
+  --border-default: 1px solid rgba(255, 255, 255, 0.5);
+  --radius-default: 12px;
+
+  --title1-size: clamp(2.625rem, 0.571vw + 2.486rem, 3rem);
+  --title2-size: clamp(2.25rem, 0.381vw + 2.157rem, 2.5rem);
+  --title3-size: 1.375rem;
+  --paragraph-size: 1rem;
+  --label-size: 0.875rem;
+}
