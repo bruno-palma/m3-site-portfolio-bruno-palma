@@ -1,0 +1,29 @@
+.header {
+  width: 900px;
+  padding-block: 1.5rem;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  div {
+    width: 35%;
+    display: flex;
+
+    nav {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      a {
+        color: #ffffff;
+        font-weight: 600;
+      }
+
+      a:hover {
+        color: var(--color-primary-hover);
+        text-decoration: underline;
+      }
+    }
+  }
+}

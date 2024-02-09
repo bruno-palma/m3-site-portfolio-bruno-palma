@@ -1,8 +1,9 @@
 import LogoPort from "../../assets/portfolio.png";
+import styles from "./styles.module.scss";
 
 export const Header = () => {
   return (
-    <header>
+    <header className={styles.header}>
       <img src={LogoPort} alt="Logo Portfólio" />
       <div>
         <nav>

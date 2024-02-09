@@ -1,6 +1,8 @@
+import styles from "./styles.module.scss";
+
 export const AboutMeSection = () => {
   return (
-    <section id="about">
+    <section id="about" className={styles.about__container}>
       <h2>Sobre mim</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex magna,
