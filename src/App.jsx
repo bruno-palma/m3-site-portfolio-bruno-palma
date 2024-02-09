@@ -3,7 +3,7 @@ import { BannerSection } from "./components/sections/BannerSection";
 import { AboutMeSection } from "./components/sections/AboutMeSection";
 import { TechSection } from "./components/sections/TechSection";
 import { ProjectsSection } from "./components/sections/ProjectsSection";
-import "./styles/index.css";
+import "./styles/index.scss";
 
 function App() {
   return (

@@ -1,4 +1,4 @@
-@import url("./globalStyles.css");
+@import url("./globalStyles.scss");
 
 body {
   font-family: "Inter", sans-serif;
@@ -15,11 +15,12 @@ button {
   color: #ffffff;
   font-size: var(--label-size);
   font-weight: 600;
-  border-radius: var(--radius-default);
+  border-radius: var(--radius-button);
   border: none;
   padding: 0.7rem 1.7rem;
 }
 
 .button-default:hover {
   background-color: var(--color-primary-hover);
+  transform: scale(1.05);
 }

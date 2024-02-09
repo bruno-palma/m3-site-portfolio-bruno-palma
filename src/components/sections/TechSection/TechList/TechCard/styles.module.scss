@@ -1,0 +1,14 @@
+.tech__card {
+  width: 17.75rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem;
+  border: var(--border-default);
+  border-radius: var(--radius-default);
+
+  h3 {
+    font-size: var(--title3-size);
+    font-weight: 800;
+  }
+}

@@ -1,0 +1,31 @@
+.footer__container {
+  width: 900px;
+  padding-block: 2rem;
+  margin-bottom: 1.5rem;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-block: var(--border-default);
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  h2 {
+    font-size: var(--title2-size);
+    font-weight: 800;
+  }
+
+  div {
+    display: flex;
+    gap: 0.7rem;
+
+    img:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.projects__container {
+  width: 900px;
+  margin-block: 5rem;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  h2 {
+    font-size: var(--title2-size);
+    font-weight: 800;
+  }
+}

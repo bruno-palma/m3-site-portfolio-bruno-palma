@@ -1,0 +1,47 @@
+.project__card {
+  width: 27.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border: var(--border-default);
+  border-radius: var(--radius-default);
+  position: relative;
+
+  h3 {
+    font-size: var(--title3-size);
+    font-weight: 800;
+  }
+
+  img {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+}
+
+.card__info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 3rem;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  button {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    color: var(--color-primary);
+    font-weight: 700;
+  }
+
+  button:hover {
+    color: var(--color-primary-hover);
+    text-decoration: underline;
+  }
+}

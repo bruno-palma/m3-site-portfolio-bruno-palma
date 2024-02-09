@@ -1,18 +1,13 @@
-.about__container {
+.tech__container {
   width: 900px;
   margin-top: 5rem;
   margin-inline: auto;
   display: flex;
-  justify-content: space-between;
-  text-align: justify;
+  flex-direction: column;
+  gap: 2rem;
 
   h2 {
     font-size: var(--title2-size);
     font-weight: 800;
-  }
-
-  p {
-    max-width: 65%;
-    line-height: 1.7rem;
   }
 }
