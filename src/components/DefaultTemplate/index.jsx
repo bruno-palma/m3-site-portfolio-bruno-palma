@@ -1,7 +1,7 @@
 import { Header } from "../Header";
 import { Footer } from "../Footer";
 
-export const DefaulTemplate = ({ children }) => {
+export const DefaultTemplate = ({ children }) => {
   return (
     <>
       <Header />

@@ -1,4 +1,4 @@
-import { DefaulTemplate } from "./components/DefaulTemplate";
+import { DefaultTemplate } from "./components/DefaultTemplate";
 import { BannerSection } from "./components/sections/BannerSection";
 import { AboutMeSection } from "./components/sections/AboutMeSection";
 import { TechSection } from "./components/sections/TechSection";
@@ -7,12 +7,12 @@ import "./styles/index.scss";
 
 function App() {
   return (
-    <DefaulTemplate>
+    <DefaultTemplate>
       <BannerSection />
       <AboutMeSection />
       <TechSection />
       <ProjectsSection />
-    </DefaulTemplate>
+    </DefaultTemplate>
   );
 }
 
