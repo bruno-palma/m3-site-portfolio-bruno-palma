@@ -1,15 +1,10 @@
-import { technologies } from "../../../../../data/technologies.js";
 import styles from "./styles.module.scss";
 
-export const TechCard = () => {
+export const TechCard = ({ name, img }) => {
   return (
-    <>
-      {technologies.map((tech, index) => (
-        <li key={index} className={styles.tech__card}>
-          <img src={tech.img} alt={` Logo ${tech.name} `} />
-          <h3>{tech.name}</h3>
-        </li>
-      ))}
-    </>
+    <li className={styles.tech__card}>
+      <img src={img} alt={` Logo ${name} `} />
+      <h3>{name}</h3>
+    </li>
   );
 };

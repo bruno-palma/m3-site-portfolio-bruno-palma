@@ -5,7 +5,7 @@ import { TechSection } from "./components/sections/TechSection";
 import { ProjectsSection } from "./components/sections/ProjectsSection";
 import "./styles/index.scss";
 
-function App() {
+const App = () => {
   return (
     <DefaultTemplate>
       <BannerSection />
@@ -14,6 +14,6 @@ function App() {
       <ProjectsSection />
     </DefaultTemplate>
   );
-}
+};
 
 export default App;
